@@ -20,6 +20,8 @@ public class RedisConstants {
     public static final String SHOP_GEO_KEY = "shop:geo:";
     public static final String USER_SIGN_KEY = "sign:";
 
-     public static final String CACHE_SHOP_TYPE_KEY = "cache:shopType:";
+    public static final String CACHE_SHOP_TYPE_KEY = "cache:shopType:";
+
+    public static final String ID_PREFIX = "ic:";
 
 }

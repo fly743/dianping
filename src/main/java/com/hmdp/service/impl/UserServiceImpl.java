@@ -79,7 +79,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         }
         // 4.判断用户是否存在
         User user = this.getOne(new LambdaQueryWrapper<User>()
-                .eq(User::getPassword, phone));
+                .eq(User::getPhone, phone));
         // 5.用户不存在
         if (Objects.isNull(user)) {
             user = createUserWithPhone(phone);
