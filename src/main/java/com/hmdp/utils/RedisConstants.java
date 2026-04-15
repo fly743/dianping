@@ -24,4 +24,5 @@ public class RedisConstants {
 
     public static final String ID_PREFIX = "ic:";
 
+
 }
